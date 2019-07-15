@@ -1,8 +1,6 @@
 package com.designpatterns.base;
 
-import java.util.NavigableMap;
-
-public class NarrowWheel extends Abstractwheel{
+public class NarrowWheel extends AbstractWheel {
     public  NarrowWheel(int Size){
         super(Size,false);
     }
